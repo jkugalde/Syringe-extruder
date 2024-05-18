@@ -10,7 +10,7 @@ A toolhead for printing with paste using an Ender printer, like model 3 or 5.
 
 # Design
 
-The idea was to hack a 3D printer to mount the toolhead as easy as possible. It uses the same extruder motor of the printer, but there are some tweaks that must be done in the hardware, firmware and slicer software. All the pieces are [HERE](https://github.com/jkugalde/Syringe-extruder).
+The idea was to hack a 3D printer to mount the toolhead as easy as possible. It uses the same extruder motor of the printer, but there are some tweaks that must be done in the hardware, firmware and slicer software. All the pieces are [HERE](https://grabcad.com/library/syringe-hydraulic-paste-extruder-for-ender-1).
 
 The extruder pushes a syringe that is conected with a tube to another syringe on the gantry. The syringe pushes water into the other syringe, so the plunger moves downward. This plunger pushes the plunger of other syringe that holds the material, wich is extruded trough the tip. In this 
 
