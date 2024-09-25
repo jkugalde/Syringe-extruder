@@ -8,6 +8,10 @@ A toolhead for printing with paste using an Ender printer, like model 3 or 5.
 
 <img src="/imgs/s3.png" width="400">
 
+NEWS
+
+I used my [twisted belt reducer](https://github.com/jkugalde/Twisted-belt-reducer) to add some torque and the machine is working better. A commercial planetary geaborx should perform even better. [Felipe](https://www.instagram.com/reel/C_ZT_Gruc2b/?igsh=NGFiZGt1OXk4MmN1) has been doing a lot of printing with it.
+
 # Design
 
 The idea was to hack a 3D printer to mount the toolhead as easy as possible. It uses the same extruder motor of the printer, but there are some tweaks that must be done in the hardware, firmware and slicer software. All the pieces are [HERE](https://grabcad.com/library/syringe-hydraulic-paste-extruder-for-ender-1) and the parts list [HERE](PARTS.md).
@@ -45,16 +49,9 @@ Before printing: The instruction M302 S0 has to be sent to allow cold extrusion.
 
 # Tests
 
-I made a few printings, some with silicone and others with some cheap clay, using different syringe diamaters (3.9 mm for clay. 2.8 mm for silicone). There are a couple of images in the imgs/test folder.
+I made a few printings, some with silicone and others with some cheap clay, using different syringe diamaters (3.9 mm for clay. 2.8 mm for silicone). There are a couple of images in the imgs/test folder. 
 
 # Future work
 
 - One or Two endstop switches should be added to limit the stroke of the syringe.
 - Maybe fan or heaters will help when printing some materials.
-
-# Comments
-
-- I only played with this machines like 3 days.
-- It is a dirty process.
-- There is some compactation before extrusion.
-- After extruding some material, it will flow anyway during some time, because of the built up pressure inside the syringe. Finding the right material is very important.

@@ -15,8 +15,6 @@
 | Nozzle   | 1    |
 
 
-The spacer is for the collar, you may not need it.
-
 ## Commercial parts
 
 | Part   | Quantity |
